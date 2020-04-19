@@ -1,9 +1,13 @@
-# bamazon
-# Constructor Word Guess Game
-
+# Bamazon - An Online Retailer
 
 ## Overview: 
-Constructor Word Guess is a command-line game using constructor functions.
+Bamazon is a command-line interface (CLI) Amazon-like storefront which takes in orders from customers and depletes stock from the store's inventory. <br>
+The products available will display in the CLI:
+*   item ID
+*   product name
+*   department name
+*   price
+*   stock quantity
 
 
 ## Future Enhancements:
@@ -12,17 +16,19 @@ Future developments would include creating a front-end with a simple, user frien
 ## Technologies:
 -	Javascript
 -	Node.js
+-   MySQL Database
 -	NPM package
     -	Inquirer
     -	Prompt
+    -   MySQL
+    -   console.table
 
 
 ## How to run the app:
+Enter `node bamazonCustomer.js` in the CLI to start the Game. <br>
+Prompts will be provided to select the item ID, quantity, and to confirm your order. <br>
+Likewise, the app will prompt if you would like to continue shopping or exit the store.
 
-Enter `node index.js` in the command line to start the Game. <br>
-Prompts will be provided to guess letters, see how many guesses remain, and to confirm if you won or lost. <br>
-Likewise, the game will prompt if you would like to play again or exit.
 
-
-## Example of how the game functions:
+## Example of how the Bamazon functions:
 ![Alt Text](https://media.giphy.com/media/YP1I99DV0ACizS42Dv/giphy.gif)
