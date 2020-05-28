@@ -1,7 +1,7 @@
 # Bamazon - An Online Retailer
 
 ## Overview: 
-Bamazon is a command-line interface (CLI) Amazon-like storefront which takes in orders from customers and depletes stock from the store's inventory. 
+Bamazon is a command-line interface (CLI) Amazon-like storefront which takes in orders from customers and depletes stock from the store's inventory. This is an exercise on the CLI and intentionally does not have a client-side.
 
 The products available will display in the CLI:
 *   item ID
